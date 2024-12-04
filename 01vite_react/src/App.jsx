@@ -1,8 +1,16 @@
+import Chai from './Chai.jsx'
+
 
 function App() {
 
   return (
-   <h1>Vite + React</h1>
+    // Rule of JSX--->  It must have a single root element...aur uske andar chahe kitne v element banante raho
+    <>  
+
+  <h1>React App</h1>
+  <Chai/>
+
+  </>
   )
 }
 
