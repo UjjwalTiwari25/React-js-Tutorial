@@ -1,13 +1,13 @@
-import React from "react";
+import "react";
 import "./App.css";
-import viteLogo from "./assets/vite.svg"; // Import the image
+import reactLogo from "./assets/react.svg"; // Import the image
 
 export default function App() {
     return (
         <div className="card">
             <img
-                src={viteLogo} // Use the imported image
-                alt="Vite logo"
+                src={reactLogo} // Use the imported image
+                alt="React logo"
                 className="react-logo"
             />
             <h1>Fun facts about React!</h1>
