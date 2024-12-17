@@ -1,17 +1,25 @@
-import Content from './Content.jsx'
+import React from "react";
+import "./App.css";
+import viteLogo from "./assets/vite.svg"; // Import the image
 
-
-function App() {
-
+export default function App() {
     return (
-        // Rule of JSX--->  It must have a single root element...aur uske andar chahe kitne v element banante raho
-        <>
-
-            <h1>React App</h1>
-            <Content/>
-
-        </>
-    )
+        <div className="card">
+            <img
+                src={viteLogo} // Use the imported image
+                alt="Vite logo"
+                className="react-logo"
+            />
+            <h1>Fun facts about React!</h1>
+            <ul>
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 200K stars on GitHub</li>
+                <li>Is maintained by Meta</li>
+                <li>
+                    Powers thousands of enterprise apps, including mobile apps
+                </li>
+            </ul>
+        </div>
+    );
 }
-
-export default App
