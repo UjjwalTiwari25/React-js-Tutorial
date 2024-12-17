@@ -1,15 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Content from './Content.jsx'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
+    return (
+        // Rule of JSX--->  It must have a single root element...aur uske andar chahe kitne v element banante raho
+        <>
 
+            <h1>React App</h1>
+            <Content/>
 
-  )
+        </>
+    )
 }
 
 export default App
