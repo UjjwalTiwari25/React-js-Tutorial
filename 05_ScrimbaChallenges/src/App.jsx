@@ -1,15 +1,14 @@
-import "react";
+import { Header, Content, Footer } from "./components";
 import "./App.css";
-import reactLogo from "./assets/react.svg"; // Import the image
 
-export default function App() {
+function App() {
     return (
-       <header>
-           <img
-               src={reactLogo} // Use the imported image
-               alt="React logo"
-               className="react-logo"
-           />
-       </header>
+        <>
+            <Header />
+            <Content />
+            <Footer />
+        </>
     );
 }
+
+export default App;

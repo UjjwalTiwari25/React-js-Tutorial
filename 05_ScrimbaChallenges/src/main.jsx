@@ -1,14 +1,6 @@
-import { createRoot } from 'react-dom/client'
-import "./App.css";
+import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-import Page from "./Body.jsx";
+import "./index.css";
 
-const root = createRoot(document.getElementById('root'))
-root.render(
-    <>
-        <App/>
-        { }
-        <Page/>
-
-    </>
-)
+const root = createRoot(document.getElementById("root"));
+root.render(<App />);
