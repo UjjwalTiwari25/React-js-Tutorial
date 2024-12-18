@@ -1,0 +1,58 @@
+
+/* Card.css */
+.card {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto; /* Center the card */
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #2b2b4f, #1e1e2f);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #61dafb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    text-align: left;
+    margin: 20px auto;
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card ul li::before {
+    content: "✨";
+    font-size: 1.2rem;
+    color: #ffcc00;
+}
+
+.footer {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 20px;
+}
+

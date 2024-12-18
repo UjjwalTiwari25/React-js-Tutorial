@@ -1,13 +1,19 @@
-import { Header, Content, Footer } from "./components";
+import "react";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
+import Card from "./components/Card"; // Import the new Card component
 import "./App.css";
 
 function App() {
     return (
-        <>
-            <Header />
-            <Content />
-            <Footer />
-        </>
+        <div>
+            <Card>
+                <Header />
+                <Content />
+                <Footer />
+            </Card>
+        </div>
     );
 }
 
