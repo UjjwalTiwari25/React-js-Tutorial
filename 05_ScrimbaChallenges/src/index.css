@@ -1,18 +1,47 @@
-/* index.css */
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background: #1e1e2f; /* Dark page background */
-  color: #ffffff;
+  font-family: "Poppins", Arial, sans-serif; /* More modern font */
+  background-color: #1e1e2f; /* Dark background for the app */
+  color: #ffffff; /* Default text color */
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100vh; /* Full viewport height */
+  line-height: 1.6; /* Improved readability */
 }
+
+/* Container Utility Class */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Center the main content area */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Scrollbar Customization (Optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e2f; /* Same as background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #61dafb; /* React blue for contrast */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4fa3d1;
+}
+
