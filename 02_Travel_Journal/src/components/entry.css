@@ -1,0 +1,25 @@
+entry{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+.entry-img{
+    max-width: 10%;
+    height: 20%;
+    margin-right: 10px;
+
+}
+h1,p{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-logo{
+    width: 24px;
+    margin-right: 7px;
+  
+  }
