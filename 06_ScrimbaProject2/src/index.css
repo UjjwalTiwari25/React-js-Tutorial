@@ -18,7 +18,7 @@ body {
   min-height: 100vh; /* Full viewport height */
   line-height: 1.6; /* Improved readability */
   padding: 60px 30px;
-  background-image: url(/assets/react.svg);
+  /*background-image: url(/assets/react.svg);*/
   background-repeat: no-repeat;
   background-position: right 70%;
 }
