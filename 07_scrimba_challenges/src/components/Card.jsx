@@ -1,3 +1,6 @@
+import callIcon from '../assets/call.jpeg';
+import emailIcon from '../assets/email.png';
+
 export default function Card(props) {
     return (
         <article className="contact-card">
@@ -8,14 +11,14 @@ export default function Card(props) {
             <h3>{props.name}</h3>
             <div className="info-group">
                 <img
-                    src="07_scrimba_challenges/src/assets/call.jpeg"
+                    src={callIcon}
                     alt="phone icon"
                 />
                 <p>{props.phone}</p>
             </div>
             <div className="info-group">
                 <img
-                    src="07_scrimba_challenges/src/assets/email.png"
+                    src={emailIcon}
                     alt="mail icon"
                 />
                 <p>{props.email}</p>
