@@ -12,6 +12,7 @@ function App() {
     <>
     <Header/>
     <Entry/>
+    <Entry/>
       
     </>
   )
