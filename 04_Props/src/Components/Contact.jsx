@@ -3,8 +3,8 @@ function Contact() {
             <div className="contacts">
             <article className="contact-card">
                 <img 
-                    src="./images/mr-whiskerson.png"
-                    alt="Photo of Mr. Whiskerson"
+                    src="./images/TestImage.png"
+                    alt="Photo of Mr. Virat Kohli"
                 />
                 <h3>Mr. Whiskerson</h3>
                 <div className="info-group">
